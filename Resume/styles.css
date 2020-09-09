@@ -1,7 +1,7 @@
 .heading {
     color:black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: large;
+    font-size: medium;
 }
 .heading > h3 > i{
     color:darkslateblue;
