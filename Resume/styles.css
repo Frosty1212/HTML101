@@ -1,3 +1,7 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+}
 .heading {
     color:black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -23,4 +27,17 @@
 .title {
     color:steelblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+button {
+    font-size: 1rem;
+    background-color:cadetblue;
+    border: 1px solid rgb(53, 7, 179);
+    padding: .5em .5em .5em .5em;
+    cursor: pointer;
+    color:white;
+}
+button:hover {
+    background: rgb(32, 113, 150);
+    border-color: cadetblue;
+    color: white;
 }
