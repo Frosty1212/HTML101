@@ -1,9 +1,43 @@
-h1 {
-    color:steelblue;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+body {
+    margin: 0 auto;
+    text-align: center;
 }
-
-h3{
+.heading {
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+}
+.heading > h3 > i{
+    color:darkslateblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.heading > div > h3{
     color:steelblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.mainText {
+    color:steelblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.mainText > p {
+    color:darkslategray;
+    font-family: 'Times New Roman', Times, serif
+}
+.title {
+    color:steelblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+button {
+    font-size: 1rem;
+    background-color:cadetblue;
+    border: 1px solid rgb(53, 7, 179);
+    padding: .5em .5em .5em .5em;
+    cursor: pointer;
+    color:white;
+}
+button:hover {
+    background: rgb(32, 113, 150);
+    border-color: cadetblue;
+    color: white;
 }
